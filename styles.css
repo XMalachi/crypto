@@ -1,0 +1,319 @@
+@media only screen and (min-width: 375px) {
+}
+
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+                'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+                'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* nav and hamburger styles starts */
+nav {
+    background-color: rgb(60, 11, 75);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-title h1 {
+    font-size: 300%; 
+    font-weight: lighter;
+    color: whitesmoke; 
+    
+}
+
+nav .mainMenu {
+    align-items: center;
+    background-color: rgb(60, 11, 75);
+    display: none;
+    list-style: none;
+    height: 100vh;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    transition: top 1s ease;
+}
+
+nav .mainMenu .closeMenu {
+    color: whitesmoke;
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 2em;
+}
+.openMenu {
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+nav .mainMenu li {
+    padding: 10px;
+}
+
+nav .mainMenu li a {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+nav .mainMenu li a:hover {
+    font-size: 1.6rem;
+    transition: 0.5s ease;
+}
+/* nav and hamburger styles end */
+
+/* header styles */
+header{
+    background-color: rgb(60, 11, 75);
+    
+}
+header >  h1 {
+    margin: 0;
+}
+header .bolder {
+    color: white;
+    font-size: 3em;
+    transition: 0.5s ease-in;
+
+}
+
+header .lighter {
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 2.5em;
+    font-weight: lighter;
+    transition: 0.5s ease;
+
+}
+
+.bold {
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: left;
+    margin: 0;
+}
+
+/* links to charts styles */
+.charts a {
+    display: block;
+    text-align: center;
+    background-color: rgb(60, 11, 75);
+}
+.bscScan {
+    background-color: rgb(150, 84, 170);
+    padding: 15px;
+    border: none;
+    margin: 0;
+}
+.chart {
+    background-color: rgb(231, 204, 240);
+    padding: 15px;
+    border: none;
+    margin: 0;
+}
+
+/* social media styles */
+.socialMedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(60, 11, 75);
+    
+}
+
+.socialMedia a > i {
+    display: block;
+    font-size: 3em;
+    padding: 10px;
+    
+}
+
+.socialMedia a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.socialMedia a:hover {
+    background-color:rgb(231, 204, 240);
+    color: rgb(150, 84, 170);
+}
+
+/* arrow down style */
+.fa-arrow-circle-down {
+    font-size: 3em;
+    position: relative;
+    top: 70px;
+    left: 175px;
+}
+
+/* about us styles */
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.whitebg {
+    background-color: white;
+    color: rgb(82, 12, 78);
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+    border-top: 20px solid rgb(223, 192, 226);
+}
+
+/* profit styles */
+
+.profitIcons {
+    background-color: white;
+    text-align: center;
+
+}
+
+.profitIcons i {
+    background-color: white;
+    font-size: 3em;
+    padding: 20px;
+    color: rgb(86, 43, 90);
+}
+
+.profitParagraphs {
+    background-color: white;
+    color: rgb(82, 12, 78);
+    text-align: center;
+    padding: 20px;
+}
+
+/* token info styles */
+
+.blackbg {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+}
+.tokenInfo {
+    padding-left: 5px;
+    width: 250px;
+    
+}
+.tokenInfo h1 {
+    padding-left: 30px;
+}
+
+.tokenInfo ul > li {
+    list-style-type: none;
+    line-height: 0.5em;
+}
+.tokenList {
+    border: 4px solid white;
+    border-radius: 10%;
+}
+.smilingWoman {
+    position: relative;
+    width: 100px;
+}
+.smilingWoman img {
+    height: 500px;
+}
+
+/* percentages styles */
+
+.percentages {
+    background-color: white;
+    padding: 20px 0;
+}
+.percentages h2 {
+    background-color: rgb(60, 11, 75);
+    color: white;
+    font-weight: lighter;
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    margin: 0 140px 10px 100px;
+    padding: 10px;
+
+}
+.percentages, h3, p {
+    text-align: center;
+    color: rgb(82, 12, 78);
+    text-align: center;
+    padding: 20px;
+}
+
+/* whyVestCoin styles */
+.whyVestCoin {
+    background-color: white;
+    color: rgb(60, 11, 75);
+}
+.whyVestCoin h3 {
+    background-color: white;
+    color: rgb(60, 11, 75);
+    margin: 0;
+}
+.whyVestCoin, h3, p {
+    text-align: center;
+    color: rgb(82, 12, 78);
+    text-align: center;
+    padding: 20px;
+}
+
+/* our roadmap styles */
+.ourRoadmap {
+    background-color: white;
+    padding: 50px;
+    
+}
+.ourRoadmap > h1 {
+    background-color: white;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+    margin: 0px;
+    
+}
+.ourRoadmap div {
+    border: solid rgb(82, 12, 78);
+    border-radius: 30%;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+.ourRoadmap ul > h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(82, 12, 78);
+    border-radius: 50%;
+    width: 50px;
+}   
+
+/* footer styles */
+
+footer > div {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+footer >p {
+    color: white;
+}
